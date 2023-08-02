@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html {
+    background-color: hsl(217, 54%, 11%);
+}
+
+body {
+    padding-top: 100px;
+}
+
+div.itemCard {
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 15vw;
+    padding: 25px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+img.itemImage {
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+p.name {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    color: hsl(0, 0%, 100%);
+}
+
+p.description {
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+div.itemStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+
+    width: 120px;
+    height: 50px;
+}
+
+img.ethIcon {
+    width: 25px;
+}
+
+p.price {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+img.timeIcon {
+    width: 30px;
+}
+
+p.time {
+    font-weight: 300;
+}
+
+div.creator {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img.avatar {
+    height: 50px;
+}
+
+p.author {
+    font-weight: 300;
+}
+
+div a {
+    font-weight: 400;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
